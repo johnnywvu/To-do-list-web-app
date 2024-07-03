@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="icon.png" type="image/png">
+
+    <title>TaskTide</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          TaskTide <img src="main_icon.png" alt="" />
+        </h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add new Task" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!--EMPTY-->
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
